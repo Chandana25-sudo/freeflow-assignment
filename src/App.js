@@ -4,6 +4,7 @@ import Icons from './icons';
 import Scroll from './scroll';
 import Aboutus from './about-us';
 import {Container,Row,Col} from 'react-bootstrap';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

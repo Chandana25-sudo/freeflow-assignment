@@ -16,6 +16,10 @@ class Icons extends Component {
                 <div class="img">
                     <img src="	https://www.cynchconstructions.com/Group%20116.svg"/>
                 </div>  
+
+                <div>
+                  <a href="#" class="btn btn-primary">Signup</a>
+                </div>
                 {/* <img src="../assests/Group 191.svg"/> */}
             </div>
         )

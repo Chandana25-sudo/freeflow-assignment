@@ -41,3 +41,7 @@ h2 {
     line-height: 1.2;
     font-size: 2.5rem;
 }
+.overflow {
+  /* overflow: inherit; */
+  margin-bottom: 31px;
+}

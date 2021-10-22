@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Carousel} from 'react-bootstrap';
 import Footer from './footer'
+// import {Container,Row,Col} from 'react-bootstrap';
+
 
 class Scroll extends Component {
 
@@ -53,17 +55,49 @@ class Scroll extends Component {
 
                     <div className="videos">
                        <h2>Images</h2>
-                       <div class="card">
-                           
-                            <div class="card-body">
-                                <h5 class="card-title"><img src="https://thumbs.dreamstime.com/b/web-156637519.jpg" width= "256px"/></h5>
-                                <h5 class="card-title">Cycling</h5>
-                               
-                                
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Signup</a>
-                            </div>
-                        </div>
+                        <table>
+                            <div className = "row">
+                                <div className="col-4 overflow">
+                                    <div class="card">
+                                        
+                                            <div class="card-body">
+                                                <h5 class="card-title"><img src="https://thumbs.dreamstime.com/b/web-156637519.jpg" width= "165px"/></h5>
+                                                <h5 class="card-title">Cycling</h5>
+                                            
+                                                
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                {/* <a href="#" class="btn btn-primary">Signup</a> */}
+                                            </div>
+                                        </div>
+                                </div> 
+                                <div className="col-4 overflow">
+                                    <div class="card">
+                                        
+                                            <div class="card-body">
+                                                <h5 class="card-title"><img src="https://thumbs.dreamstime.com/b/web-156637519.jpg" width= "165px"/></h5>
+                                                <h5 class="card-title">Cycling</h5>
+                                            
+                                                
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                {/* <a href="#" class="btn btn-primary">Signup</a> */}
+                                            </div>
+                                        </div>
+                                </div>   
+                                <div className="col-4">
+                                    <div class="card">
+                                        
+                                            <div class="card-body">
+                                                <h5 class="card-title"><img src="https://thumbs.dreamstime.com/b/web-156637519.jpg" width= "165px"/></h5>
+                                                <h5 class="card-title">Cycling</h5>
+                                            
+                                                
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                {/* <a href="#" class="btn btn-primary">Signup</a> */}
+                                            </div>
+                                        </div>
+                                </div>          
+                            </div>            
+                        </table>        
                     </div>
                     <Footer/>
                 </div>     
