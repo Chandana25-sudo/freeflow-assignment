@@ -1,47 +1,82 @@
 .App {
   /* display:flex; */
 }
-.icons-component{
+.icons-component {
   /* width: 70px; */
 }
 .row {
-  display:flex;
+  display: flex;
 }
-table{
-  width:100%;
+table {
+  width: 100%;
 }
 .img {
-  margin:25px;
-} 
+  margin: 25px;
+}
+.bg-light {
+  background-color: #4071a3 !important;
+}
+.h3, h3 {
+  margin-left: 51px;
+  font-size: 1.75rem;
+  color: antiquewhite;
+  font-style: inherit;
+}
 #card-shadow {
   margin: 22px;
   margin-right: 3rem;
 }
 .card {
-  border:0;
+  border: 0;
 }
 .icons-component {
-  position:fixed;
+  position: fixed;
 }
 .aboutus-component {
-  position:fixed;
+  position: fixed;
 }
 .scroll-component {
   background-color: #f0f0f0;
   /* overflow-y: scroll; */
-  
 }
 .footer-component {
-  background-color: #cf1322;
+  background-color: #050101;
+  margin-top: 50px;
+
+  color: whitesmoke;}
+
+  .gridclass{
+    /* width: 171px; */
+    margin-top: 33px;
+    
+  }
+
+
+.footerimage{
+  padding: 15px;
+  height: 64px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.footer-row{
 }
 h2 {
   margin-top: 0;
-    margin-bottom: .5rem;
-    font-weight: 500;
-    line-height: 1.2;
-    font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2.5rem;
 }
-.overflow {
-  /* overflow: inherit; */
-  margin-bottom: 31px;
+.Login-component {
+  background-color: black;
+}
+.login-label {
+  font-size: large;
+  font-variant: light;
+}
+.Login-button{
+  align-self: center;
+}
+.login-btn {
+  margin:15px;
 }
