@@ -7,6 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { MDBIcon, MDBContainer } from 'mdbreact';
 
 class Icons extends Component {
 
@@ -34,7 +35,19 @@ class Icons extends Component {
                 </div>
 
                 <div>
-                <i class="fab fa-twitter"></i>
+                    <p className="connect">Connect</p>
+                    {/* <p>With Us</p> */}
+                <div className = "share-btn">
+                {/* <h9 class="writing-mode-hack description">connect with us</h9> */}
+                    <div className="facebook-icon">
+                     <img src="https://www.cynchconstructions.com/facebook.png"/>
+                    </div>
+                    <div className="facebook-icon">
+                     <img src="https://www.cynchconstructions.com/twitter.png"/>
+                    </div>
+                   
+                    
+                </div>
 
                 </div>
                 {/* <img src="../assests/Group 191.svg"/> */}

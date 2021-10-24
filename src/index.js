@@ -20,10 +20,13 @@ ReactDOM.render(
     <Route exact path="/">
           <App/>
         </Route>
-
+    <div className="login-component">
     <Route exact path="/login">
+      
           <Login />
-        </Route>
+       
+      </Route>
+      </div>   
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

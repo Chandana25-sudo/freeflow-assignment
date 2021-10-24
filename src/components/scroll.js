@@ -6,7 +6,7 @@ class Scroll extends Component {
   render() {
     return (
       <div className="scroll-component">
-        <div class="container">
+        <div class="container" id="scroll-thumb">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <img
               src="	https://urlife.co.in/wp-content/uploads/2020/04/20003353/urlife_favicon.jpg"
@@ -90,59 +90,101 @@ class Scroll extends Component {
           </p>
           <p>Indian fitness and well-being startup which has established a market-leading position in the country in four years of existence, is ready to stretch to a new geography.</p>
 
-          <div className="videos">
-            <h2>Images</h2>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">
-                  <Row>
-                      <Col md-4>
-                    <img
-                      src="https://thumbs.dreamstime.com/b/web-156637519.jpg"
-                      width="256px"
-                    /></Col>
-                    <Col md-4>
-                    <img
-                      src="https://static6.depositphotos.com/1070914/590/i/600/depositphotos_5907954-stock-photo-man-extreme-biking.jpg
-                      "
-                      width="220px"
-                    /></Col>
-                  </Row>
-                </h5>
-                <h5 class="card-title">Cycling</h5>
-
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-{/*                 
-                <a href="#" class="btn btn-primary">
-                  Signup
-                </a> */}
-              </div>
-            </div>
-          </div>
-        </div>
+          
         <h2>Our Services</h2>
         <Container class="gridclass">
-          <Row md={4}>
-            <Col><img
-                              src="https://media2.picsearch.com/is?ZXkRFfvyjFIpnz12KcK77eMMsKrI_PfGIFNQMyC4rDE&height=227
-                              "
-                              width="220px"
-                            /></Col>
-            <Col xs={6}><img
-                              src="https://static6.depositphotos.com/1070914/590/i/600/depositphotos_5907954-stock-photo-man-extreme-biking.jpg
-                              "
-                              width="220px"
-                            /></Col>
-            <Col><img
-                              src="https://media1.picsearch.com/is?4M42wZJPw0D_WG_D6wNKKwjnyyMPQ9HU55P1dr90-iw&height=227                      "
-                              width="220px"
-                            /></Col>
+          <Row>
+            <Col md={4}><div className="shadow p-3 mb-5 bg-white rounded hover-prop" >
+                    <div className="card">
+                    <div class="card-header img-align">
+                            <img src="https://www.cynchconstructions.com/Group%20109.svg"/>
+                      </div>
+                        <div className="card-body">
+                            <h5 className="card-title">Special Yoga Training</h5>
+                            <p className="card-text">Yoga’s integrative approach brings deep harmony and unshakable balance to body and mind in order to awaken our latent capacity for a higher consciousness that is the true purpose of human evolution.</p>
+                            {/* <a href="#" className="btn btn-primary">Signup</a> */}
+                        </div>
+                    </div>
+                 </div> </Col>
+            <Col md={4}><div className="shadow p-3 mb-5 bg-white rounded hover-prop" >
+                    <div className="card">
+                    <div class="card-header img-align">
+                            <img src="https://www.cynchconstructions.com/Group%20109.svg"/>
+                      </div>
+                        <div className="card-body">
+                            <h5 className="card-title">Special Yoga Training</h5>
+                            <p className="card-text">Yoga’s integrative approach brings deep harmony and unshakable balance to body and mind in order to awaken our latent capacity for a higher consciousness that is the true purpose of human evolution.</p>
+                            {/* <a href="#" className="btn btn-primary">Signup</a> */}
+                        </div>
+                    </div>
+                 </div> </Col>
+            <Col md={4}><div className="shadow p-3 mb-5 bg-white rounded hover-prop" >
+                    <div className="card">
+                    <div class="card-header img-align">
+                            <img src="https://www.cynchconstructions.com/Group%20109.svg"/>
+                      </div>
+                        <div className="card-body">
+                            <h5 className="card-title">Special Yoga Training</h5>
+                            <p className="card-text">Yoga’s integrative approach brings deep harmony and unshakable balance to body and mind in order to awaken our latent capacity for a higher consciousness that is the true purpose of human evolution.</p>
+                            {/* <a href="#" className="btn btn-primary">Signup</a> */}
+                        </div>
+                    </div>
+                 </div> </Col>
           </Row>
         </Container>
-        {/* <Login/> */}
+        <h2>Our Packages</h2>
+        <Container class="gridclass">
+          <Row>
+            <Col md={6} ><div className="shadow p-3 mb-5 bg-white rounded hover-prop" >
+                    <div className="card">
+                    <div class="card-header package-img">
+                            <img src="https://www.cynchconstructions.com/email.svg"/>
+                      </div>
+                        <div className="card-body">
+                            <h5 className="card-title">Special Yoga Training</h5>
+                            <p className="card-text">Yoga’s integrative approach brings deep harmony and unshakable balance to body and mind in order to awaken our latent capacity for a higher consciousness that is the true purpose of human evolution.</p>
+                            {/* <a href="#" className="btn btn-primary">Signup</a> */}
+                        </div>
+                    </div>
+                 </div> </Col>
+            <Col md={6} ><div className="shadow p-3 mb-5 bg-white rounded hover-prop" >
+                    <div className="card">
+                    <div class="card-header package-img">
+                            <img src="https://www.cynchconstructions.com/email.svg"/>
+                      </div>
+                        <div className="card-body">
+                            <h5 className="card-title">Special Yoga Training</h5>
+                            <p className="card-text">Yoga’s integrative approach brings deep harmony and unshakable balance to body and mind in order to awaken our latent capacity for a higher consciousness that is the true purpose of human evolution.</p>
+                            {/* <a href="#" className="btn btn-primary">Signup</a> */}
+                        </div>
+                    </div>
+                 </div> </Col>
+            <Col md={6} ><div className="shadow p-3 mb-5 bg-white rounded hover-prop" >
+                    <div className="card">
+                    <div class="card-header package-img">
+                            <img src="https://www.cynchconstructions.com/email.svg"/>
+                      </div>
+                        <div className="card-body">
+                            <h5 className="card-title">Special Yoga Training</h5>
+                            <p className="card-text">Yoga’s integrative approach brings deep harmony and unshakable balance to body and mind in order to awaken our latent capacity for a higher consciousness that is the true purpose of human evolution.</p>
+                            {/* <a href="#" className="btn btn-primary">Signup</a> */}
+                        </div>
+                    </div>
+                 </div> </Col>
+                 <Col md={6} ><div className="shadow p-3 mb-5 bg-white rounded hover-prop" >
+                    <div className="card">
+                    <div class="card-header package-img">
+                            <img src="https://www.cynchconstructions.com/email.svg"/>
+                      </div>
+                        <div className="card-body">
+                            <h5 className="card-title">Special Yoga Training</h5>
+                            <p className="card-text">Yoga’s integrative approach brings deep harmony and unshakable balance to body and mind in order to awaken our latent capacity for a higher consciousness that is the true purpose of human evolution.</p>
+                            {/* <a href="#" className="btn btn-primary">Signup</a> */}
+                        </div>
+                    </div>
+                 </div> </Col>
+          </Row>
+        </Container>
         <Footer />
       </div>
       //   </div>
