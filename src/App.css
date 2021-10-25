@@ -157,3 +157,18 @@ h2 {
   /* position: absolute; */
   top: 0.85rem;
 }
+@media (max-width: 768px)  {
+  .desktop{
+    display:none;
+  }
+}
+@media (max-width: 480px) {
+  .desktop{
+    display:none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mobile {
+    display:none;
+  }
+}
