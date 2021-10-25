@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faHome } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Footer extends Component {
   render() {
@@ -22,10 +22,14 @@ class Footer extends Component {
             <h5>Contact us</h5>
             <p>nvanaveen96@gmail.com</p>
             <p>chandana.velpula16@gmail.com</p>
+<<<<<<< HEAD:src/footer.js
             <FontAwesomeIcon Component={faHome}>
             
               </FontAwesomeIcon>
             <p>anilkumar</p>
+=======
+            <p>aravindkumar77804@gmail.com</p>
+>>>>>>> a6dbfa680c4e29e7076b61f31bc642c363a555e7:src/components/footer.js
           </div>
         </div>
       </div>

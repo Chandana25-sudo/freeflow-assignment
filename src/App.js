@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-import Icons from './icons';
-import Scroll from './scroll';
-import Aboutus from './about-us';
+import Icons from './components/icons';
+import Scroll from './components/scroll';
+import Aboutus from './components/about-us';
 import {Container,Row,Col} from 'react-bootstrap';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
