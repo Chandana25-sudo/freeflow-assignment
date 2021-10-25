@@ -187,7 +187,7 @@ class Scroll extends Component {
         </Container>
         <Footer />
       </div>
-      //   </div>
+         </div>
     );
   }
 }
