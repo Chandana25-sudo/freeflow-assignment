@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import { Carousel, Col, Row, Container } from "react-bootstrap";
 import Footer from "./footer";
+import Image1 from "../assests/carousel-img1.jpg";
+import {
+ 
+  Link
+} from "react-router-dom";
+import Subscroll from "../sub-scroll";
 // import Login from './login';
 class Scroll extends Component {
   render() {
@@ -28,11 +34,13 @@ class Scroll extends Component {
 
           <Carousel>
             <Carousel.Item>
-              <img
+              <Link to="/imagedata"><img
                 className="d-block w-100"
-                src="http://corporatewellness.urlife.co.in/assets/img/bg-new-2.jpg"
+                src={Image1}
                 alt="Fourth slide"
               />
+              
+              </Link>
 
               <Carousel.Caption>
                 {/* <h3>First slide label</h3>

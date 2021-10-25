@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Login from './pages/login'
+import Subscroll from './sub-scroll';
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,7 +17,7 @@ import {
 ReactDOM.render(
   <BrowserRouter>
     
-    <Switch>
+    
     <Route exact path="/">
           <App/>
         </Route>
@@ -27,7 +28,12 @@ ReactDOM.render(
        
       </Route>
       </div>   
-    </Switch>
+      
+        <Route exact path="/imagedata" component={Subscroll}/>
+          
+              
+      
+    
   </BrowserRouter>,
   document.getElementById('root')
 );
