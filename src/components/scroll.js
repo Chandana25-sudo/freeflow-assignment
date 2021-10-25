@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Carousel, Col, Row, Container } from "react-bootstrap";
 import Footer from "./footer";
 import Image1 from "../assests/carousel-img1.jpg";
+import Image2 from "../assests/carousel-img2.jpg";
 import {
  
   Link
@@ -53,7 +54,7 @@ class Scroll extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://media5.picsearch.com/is?SxTEEXmEiSRQuJf-TBmRPK5dsFB4mSWNifS9xLQcpBw&height=227"
+                src={Image2}
                 alt="First slide"
               />
               <Carousel.Caption>

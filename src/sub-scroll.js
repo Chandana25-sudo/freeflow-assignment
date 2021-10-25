@@ -2,12 +2,11 @@ import React, {Component} from 'react';
 
 
 
-class Subscroll extends Component {
-  constructor(props){
-      super(props);
-    this.state = {
+const Subscroll = () => {
+ 
+    
 
-    data: [
+    const data = [
         {
             id:1,
             h : "It Employees",
@@ -29,24 +28,27 @@ class Subscroll extends Component {
             p : "Yoga’s integrative approach brings deep harmony and unshakable balance to body and mind in order to awaken our latent capacity for a higher consciousness that is the true purpose of human evolution."
         }
     ]
-  };
-  }
-    render() { 
+  
+  
+   
         
         return (
             <div className="subscroll-component">
             
                {
-                   this.state.data.map((a) => {
-                       console.log(a.h);
-                    (<div>{a.h}</div>);
-                   })
+                   data.map((a) => (
+                    
+                    <div>
+                        <h1>{a.h}</h1>
+                        <p>{a.p}</p>
+                    </div>
+        ))
                }
                 
                 
             </div>
         )
-    }
+    
     
     
     
