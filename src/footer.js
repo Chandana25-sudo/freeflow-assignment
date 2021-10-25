@@ -22,6 +22,9 @@ class Footer extends Component {
             <h5>Contact us</h5>
             <p>nvanaveen96@gmail.com</p>
             <p>chandana.velpula16@gmail.com</p>
+            <FontAwesomeIcon Component={faHome}>
+            
+              </FontAwesomeIcon>
             <p>anilkumar</p>
           </div>
         </div>

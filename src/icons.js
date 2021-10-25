@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+// import Button from 'bootstrap';
+import SidebarExample from './routing'
+import HomepageComponent from './homepage';
 
 class Icons extends Component {
 
@@ -17,6 +20,7 @@ class Icons extends Component {
                     <img src="	https://www.cynchconstructions.com/Group%20116.svg"/>
                 </div>  
                 {/* <img src="../assests/Group 191.svg"/> */}
+                <SidebarExample/>
             </div>
         )
     }
